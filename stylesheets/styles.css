@@ -18,9 +18,7 @@ h1, h2, h3, h4 {
     font-weight: 400;
 }
 
-
 /* Link colour courtesy of http://flatuicolors.com/ */
-
 a:link, a:visited {
     display: inline-block;
     color: #2980b9;
@@ -30,8 +28,6 @@ a:link, a:visited {
 a:hover, a:focus {
     color: #3498db;
 }
-
-
 
 /* Use an ::after pseudo-element for link underlining to avoid having thick lines under large/bold text
    This can possibly be used later on for a simple hover effect/transition */
@@ -75,9 +71,8 @@ main {
     border-bottom: 1px solid #e6e6e6;
 }
 
-h1 {
-    padding: 5vw;
-    padding-bottom: 10vw;
+.banner {
+    padding: 10vw;
     text-align: center;
 }
 
@@ -131,9 +126,6 @@ h1 {
 /* Min-width break to add more padding on wider screens */
 
 @media all and (min-width: 720px) {
-    h1 {
-        padding: 10vw;
-    }
     main {
         padding: 15px;
     }
