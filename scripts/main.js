@@ -2,7 +2,7 @@
 
 
 ((window.gitter = {}).chat = {}).options = {
-  room: 'thepracticaldev/1pr',
+  room: 'dev-1pr/1pr',
   useStyles: false
 };
 
